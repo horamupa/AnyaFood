@@ -8,17 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		8DDD52052A225A4E00897B34 /* AnyaFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD52042A225A4E00897B34 /* AnyaFoodApp.swift */; };
-		8DDD52072A225A4E00897B34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD52062A225A4E00897B34 /* ContentView.swift */; };
+		8DDD52072A225A4E00897B34 /* AllRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD52062A225A4E00897B34 /* AllRecipeView.swift */; };
 		8DDD52092A225A4F00897B34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DDD52082A225A4F00897B34 /* Assets.xcassets */; };
 		8DDD520C2A225A4F00897B34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DDD520B2A225A4F00897B34 /* Preview Assets.xcassets */; };
+		8DDD52142A225B9900897B34 /* AllRecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD52132A225B9900897B34 /* AllRecipeViewModel.swift */; };
+		8DDD52172A225C1E00897B34 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD52162A225C1E00897B34 /* Food.swift */; };
+		8DDD521A2A225FE500897B34 /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD52192A225FE500897B34 /* MenuRowView.swift */; };
+		8DDD521C2A2261C700897B34 /* MenuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD521B2A2261C700897B34 /* MenuDetailView.swift */; };
+		8DDD521E2A22657F00897B34 /* DrinkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD521D2A22657F00897B34 /* DrinkDetailView.swift */; };
+		8DDD52262A27A63F00897B34 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD52252A27A63F00897B34 /* Router.swift */; };
+		8DDD52282A27AAB100897B34 /* PathManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD52272A27AAB100897B34 /* PathManager.swift */; };
+		8DDD522B2A27B3A400897B34 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD522A2A27B3A400897B34 /* CartView.swift */; };
+		8DDD522D2A27B64200897B34 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD522C2A27B64200897B34 /* CartManager.swift */; };
+		8DDD522F2A27BA9F00897B34 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD522E2A27BA9F00897B34 /* Ingredient.swift */; };
+		8DDD52312A27BCC700897B34 /* IngredientsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD52302A27BCC700897B34 /* IngredientsDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8DC41E712A28EA190034DA5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8DDD52012A225A4E00897B34 /* AnyaFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnyaFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDD52042A225A4E00897B34 /* AnyaFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyaFoodApp.swift; sourceTree = "<group>"; };
-		8DDD52062A225A4E00897B34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8DDD52062A225A4E00897B34 /* AllRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRecipeView.swift; sourceTree = "<group>"; };
 		8DDD52082A225A4F00897B34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DDD520B2A225A4F00897B34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DDD52132A225B9900897B34 /* AllRecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRecipeViewModel.swift; sourceTree = "<group>"; };
+		8DDD52162A225C1E00897B34 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		8DDD52192A225FE500897B34 /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
+		8DDD521B2A2261C700897B34 /* MenuDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDetailView.swift; sourceTree = "<group>"; };
+		8DDD521D2A22657F00897B34 /* DrinkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetailView.swift; sourceTree = "<group>"; };
+		8DDD52252A27A63F00897B34 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		8DDD52272A27AAB100897B34 /* PathManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathManager.swift; sourceTree = "<group>"; };
+		8DDD522A2A27B3A400897B34 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		8DDD522C2A27B64200897B34 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		8DDD522E2A27BA9F00897B34 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		8DDD52302A27BCC700897B34 /* IngredientsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +74,16 @@
 		8DDD52032A225A4E00897B34 /* AnyaFood */ = {
 			isa = PBXGroup;
 			children = (
+				8DC41E712A28EA190034DA5E /* Info.plist */,
+				8DDD52242A27A62D00897B34 /* Router */,
+				8DDD52122A225B7E00897B34 /* AllRecepieView */,
+				8DDD52292A27B39800897B34 /* CartView */,
+				8DDD52182A225FD100897B34 /* Components */,
+				8DDD52152A225C1200897B34 /* Models */,
 				8DDD52042A225A4E00897B34 /* AnyaFoodApp.swift */,
-				8DDD52062A225A4E00897B34 /* ContentView.swift */,
 				8DDD52082A225A4F00897B34 /* Assets.xcassets */,
 				8DDD520A2A225A4F00897B34 /* Preview Content */,
+				8DDD52302A27BCC700897B34 /* IngredientsDetailView.swift */,
 			);
 			path = AnyaFood;
 			sourceTree = "<group>";
@@ -65,6 +94,52 @@
 				8DDD520B2A225A4F00897B34 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DDD52122A225B7E00897B34 /* AllRecepieView */ = {
+			isa = PBXGroup;
+			children = (
+				8DDD52062A225A4E00897B34 /* AllRecipeView.swift */,
+				8DDD52132A225B9900897B34 /* AllRecipeViewModel.swift */,
+			);
+			path = AllRecepieView;
+			sourceTree = "<group>";
+		};
+		8DDD52152A225C1200897B34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8DDD52162A225C1E00897B34 /* Food.swift */,
+				8DDD522E2A27BA9F00897B34 /* Ingredient.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8DDD52182A225FD100897B34 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8DDD52192A225FE500897B34 /* MenuRowView.swift */,
+				8DDD521B2A2261C700897B34 /* MenuDetailView.swift */,
+				8DDD521D2A22657F00897B34 /* DrinkDetailView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8DDD52242A27A62D00897B34 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				8DDD52252A27A63F00897B34 /* Router.swift */,
+				8DDD52272A27AAB100897B34 /* PathManager.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		8DDD52292A27B39800897B34 /* CartView */ = {
+			isa = PBXGroup;
+			children = (
+				8DDD522A2A27B3A400897B34 /* CartView.swift */,
+				8DDD522C2A27B64200897B34 /* CartManager.swift */,
+			);
+			path = CartView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +212,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DDD52072A225A4E00897B34 /* ContentView.swift in Sources */,
+				8DDD522B2A27B3A400897B34 /* CartView.swift in Sources */,
+				8DDD52262A27A63F00897B34 /* Router.swift in Sources */,
+				8DDD52072A225A4E00897B34 /* AllRecipeView.swift in Sources */,
+				8DDD522D2A27B64200897B34 /* CartManager.swift in Sources */,
+				8DDD522F2A27BA9F00897B34 /* Ingredient.swift in Sources */,
+				8DDD52312A27BCC700897B34 /* IngredientsDetailView.swift in Sources */,
+				8DDD52172A225C1E00897B34 /* Food.swift in Sources */,
+				8DDD52142A225B9900897B34 /* AllRecipeViewModel.swift in Sources */,
+				8DDD521A2A225FE500897B34 /* MenuRowView.swift in Sources */,
+				8DDD521E2A22657F00897B34 /* DrinkDetailView.swift in Sources */,
 				8DDD52052A225A4E00897B34 /* AnyaFoodApp.swift in Sources */,
+				8DDD521C2A2261C700897B34 /* MenuDetailView.swift in Sources */,
+				8DDD52282A27AAB100897B34 /* PathManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +356,7 @@
 				DEVELOPMENT_TEAM = 79GHQ256TM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnyaFood/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +386,7 @@
 				DEVELOPMENT_TEAM = 79GHQ256TM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnyaFood/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

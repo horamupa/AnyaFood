@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct AnyaFoodApp: App {
+    
+    @StateObject var pathManager = PathManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AllRecipeView()
+                .onOpenURL { url in
+                    if url.host() == "menu" {
+                        pathManager.push(to: .deepLink)
+                    }
+                }
+                .environmentObject(pathManager)
         }
     }
 }
